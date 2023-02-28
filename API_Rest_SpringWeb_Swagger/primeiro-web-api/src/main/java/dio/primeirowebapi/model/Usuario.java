@@ -5,23 +5,20 @@ public class Usuario {
     private String login;
     private String password;
 
-    public Usuario(){}
-    public Usuario(String login, String password){
-        this.login = login;
-        this.password = password;
-
+    public Usuario() {
     }
 
-    @Override
+    public Usuario(String login, String password) {
+        this.login = login;
+        this.password = password;
+    }
+
     public String toString() {
-        return "Usuario{" +
-                "login='" + login + '\'' +
-                ", password='" + password + '\'' +
-                '}';
+        return "Usuario{login='" + this.login + "', password='" + this.password + "'}";
     }
 
     public Integer getId() {
-        return id;
+        return this.id;
     }
 
     public void setId(Integer id) {
@@ -29,7 +26,7 @@ public class Usuario {
     }
 
     public String getLogin() {
-        return login;
+        return this.login;
     }
 
     public void setLogin(String login) {
@@ -37,7 +34,7 @@ public class Usuario {
     }
 
     public String getPassword() {
-        return password;
+        return this.password;
     }
 
     public void setPassword(String password) {
