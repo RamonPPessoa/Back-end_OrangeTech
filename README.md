@@ -1,5 +1,5 @@
 # Back-end_OrangeTech
-Bootcamp realizado na plataforma da DIO em parceria com o Inter, voltado para o desenvolvimento back end utilizando a linguagem Java com a stack Java/SpringBoot/Postgres
+Bootcamp realizado na plataforma da DIO em parceria com o Inter, voltado para o desenvolvimento back end utilizando a linguagem Java com a stack Java/SpringBoot/Postgres.Nesse repositório contém uma API que foi desenvolvida para o contexto de cadastro de um usuário.
 
 
 
